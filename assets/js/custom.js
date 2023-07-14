@@ -5,6 +5,6 @@ let s = 'hey';
 function x(x, y) {
 
     var hey = function () {
-        console.log(object);
+         console.log(object);
     }
 } 
