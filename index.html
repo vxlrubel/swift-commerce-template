@@ -3,48 +3,81 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Swift Commerce</title>
-		<link rel="stylesheet" href="style.css" media="all" />
-
-		<!-- website scripts -->
+		<meta
+			name="description"
+			content="Your website's description in 150-160 characters"
+		/>
+		<meta name="keywords" content="keyword1, keyword2, keyword3, ..." />
+		<meta name="author" content="Your Name" />
+		<meta name="robots" content="index, follow" />
+		<meta name="og:title" content="Your Website Title" />
+		<meta
+			name="og:description"
+			content="Your website's description in 150-160 characters"
+		/>
+		<meta name="og:type" content="website" />
+		<meta name="og:url" content="http://www.example.com" />
+		<meta name="og:image" content="http://www.example.com/image.jpg" />
+		<meta name="twitter:title" content="Your Website Title" />
+		<meta
+			name="twitter:description"
+			content="Your website's description in 150-160 characters"
+		/>
+		<meta name="twitter:image" content="http://www.example.com/image.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<title>Your Website Title</title>
 	</head>
-
 	<body>
-		<div class="clearfix">
-			<div class="container">
-				<!-- staart row -->
-				<div class="row">
-					<div class="col">
-						<h2>hello world</h2>
-						<p class="description">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-							Reprehenderit aliquid nobis illo quibusdam incidunt non quia totam
-							ducimus temporibus ea cupiditate eaque nemo, veniam odit dolor
-							sapiente! Voluptatum dolorum nobis eveniet magnam, harum
-							necessitatibus. Voluptatem accusantium consequuntur corrupti
-							consequatur, delectus aperiam repellat maiores veritatis nisi. Ab
-							id distinctio facere consequatur?
-						</p>
-					</div>
-				</div>
-
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, omnis
-				deserunt. Cum qui incidunt voluptatibus eaque, magni dolorem dolore
-				cumque? Neque fugiat velit corrupti voluptatum accusantium laudantium
-				magni odio saepe.
-
-				<!-- start row -->.
-				<div class="container-fluid">
-					<h2>hello world</h2>
-
-					hello world world this Lorem ipsum dolor sit amet consectetur,
-					adipisicing elit. Deleniti, nam itaque. Voluptatum sed voluptas ullam
-					facere ab eaque repellat asperiores, hic perspiciatis animi nemo
-					cumque, doloribus expedita dolorum modi ipsa?
-				</div>
-				<!-- end row -->
+		<!-- header area start -->
+		<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button
+				class="navbar-toggler d-lg-none"
+				type="button"
+				data-toggle="collapse"
+				data-target="#collapsibleNavId"
+				aria-controls="collapsibleNavId"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			></button>
+			<div class="collapse navbar-collapse" id="collapsibleNavId">
+				<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<a class="nav-link" href="#"
+							>Home <span class="sr-only">(current)</span></a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="dropdownId"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+							>Dropdown</a
+						>
+						<div class="dropdown-menu" aria-labelledby="dropdownId">
+							<a class="dropdown-item" href="#">Action 1</a>
+							<a class="dropdown-item" href="#">Action 2</a>
+						</div>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input
+						class="form-control mr-sm-2"
+						type="text"
+						placeholder="Search"
+					/>
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+						Search
+					</button>
+				</form>
 			</div>
-		</div>
-		<script src="./assets/js/custom.js"></script>
+		</nav>
+		<!-- header area end -->
 	</body>
 </html>
